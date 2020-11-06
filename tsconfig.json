@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "jsx": "react",
+    "watch": true,
+    "target": "es2017",
+    "lib": [
+      "ES6",
+      "DOM"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "suppressImplicitAnyIndexErrors": true,
+  },
+  "include": [
+    "src",
+    "public"
+  ]
+}
